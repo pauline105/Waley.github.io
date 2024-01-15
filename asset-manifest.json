@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.27aa7274.css",
-    "main.js": "./static/js/main.a7e88b7f.js",
-    "static/js/787.5ef59a19.chunk.js": "./static/js/787.5ef59a19.chunk.js",
-    "static/media/linux.webp": "./static/media/linux.1e4886dbff5eba8d7a5d.webp",
-    "static/media/archive.webp": "./static/media/archive.ccc913fa735236932b2d.webp",
-    "static/media/ww.png": "./static/media/ww.4b6afda626333ebd5ed6.png",
-    "index.html": "./index.html",
-    "main.27aa7274.css.map": "./static/css/main.27aa7274.css.map",
-    "main.a7e88b7f.js.map": "./static/js/main.a7e88b7f.js.map",
-    "787.5ef59a19.chunk.js.map": "./static/js/787.5ef59a19.chunk.js.map"
+    "main.css": "/https%EF%BC%9A//waley.github.io/static/css/main.9a745b76.css",
+    "main.js": "/https%EF%BC%9A//waley.github.io/static/js/main.f8b5896f.js",
+    "static/js/787.5ef59a19.chunk.js": "/https%EF%BC%9A//waley.github.io/static/js/787.5ef59a19.chunk.js",
+    "static/media/linux.webp": "/https%EF%BC%9A//waley.github.io/static/media/linux.1e4886dbff5eba8d7a5d.webp",
+    "static/media/archive.webp": "/https%EF%BC%9A//waley.github.io/static/media/archive.ccc913fa735236932b2d.webp",
+    "static/media/ww.png": "/https%EF%BC%9A//waley.github.io/static/media/ww.4b6afda626333ebd5ed6.png",
+    "index.html": "/https%EF%BC%9A//waley.github.io/index.html",
+    "main.9a745b76.css.map": "/https%EF%BC%9A//waley.github.io/static/css/main.9a745b76.css.map",
+    "main.f8b5896f.js.map": "/https%EF%BC%9A//waley.github.io/static/js/main.f8b5896f.js.map",
+    "787.5ef59a19.chunk.js.map": "/https%EF%BC%9A//waley.github.io/static/js/787.5ef59a19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27aa7274.css",
-    "static/js/main.a7e88b7f.js"
+    "static/css/main.9a745b76.css",
+    "static/js/main.f8b5896f.js"
   ]
 }
