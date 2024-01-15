@@ -1,10 +1,10 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 import HomeImg from "@/assets/img/home/ww.png";
 import "@/style/home/home.scss";
 import ReactAplayer from "react-aplayer";
 
 function Home() {
-  // const [ap, setAp] = useState<any>();
+  const [ap, setAp] = useState<any>();
   // 音乐播放器配置
   const onPlay = () => {
     console.log("on play");
@@ -15,9 +15,9 @@ function Home() {
   };
 
   // example of access aplayer instance
-  // const onInit = (ap: any) => {
-  //   ap = ap;
-  // };
+  const onInit = (ap: any) => {
+    ap = ap;
+  };
   const props = {
     theme: "#F57F17",
     lrcType: 3,
@@ -69,7 +69,7 @@ function Home() {
         {/* 播放器 */}
         <ReactAplayer
           {...props}
-          // onInit={onInit}
+          onInit={onInit}
           onPlay={onPlay}
           onPause={onPause}
         />

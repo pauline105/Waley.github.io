@@ -16,10 +16,10 @@ function Archives() {
       <div className="archives">
         <p>
           <span>
-            {/* <i className="iconfont icon-wenzhang"></i>2024-1-15 */}
+            <i className="iconfont icon-wenzhang"></i>2024-1-15
           </span>
         </p>
-        <div className="archive——box" onClick={() => gotoArchives()}>
+        <div className="archive——box"    onClick={() => gotoArchives()}         >
           <i></i>
           <i></i>
           <div>[Linux] 初识Linux笔记</div>
