@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import HomeNavBar from "@/views/home/HomeNavBar";
 import HomeMain from "@/views/home/HomeMain";
 import Archives from "@/views/archives";
 import Linux from "@/views/archives/Linux";
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         {/* 首页 */}
         <Route element={<HomeNavBar />} path="/">
@@ -17,7 +17,7 @@ const Router = () => {
           <Route element={<Linux></Linux>} path="/archives/linux"></Route>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default Router;
