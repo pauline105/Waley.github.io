@@ -1,5 +1,6 @@
 import Router from "./router/index";
-import HomeNavBar from "@/views/home/HomeNavBar";
+import '@/assets/fonts/iconfont.css'
+import '@/assets/fonts/iconfont'
 function App() {
   return (
     <div className="App">

@@ -25,9 +25,7 @@ function HomeNavBar() {
           <span 
           onClick={() => GotoArchives()}
           >
-            <i className="iconfont icon-dingdan">
-              归档</i>
-          
+            <i className="iconfont icon-dingdan">归档</i>
           </span>
           <span>
             <i className="iconfont icon-qingdan"></i>清单
