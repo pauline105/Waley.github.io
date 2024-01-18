@@ -31,11 +31,28 @@
     margin: 20px auto;
     padding: 20px;
     > span:nth-child(1) {
-      font-size: 36px;
+      font-size: 26px;
       font-weight: 700;
     }
     > p:nth-child(2) {
-      margin-top: 10px;
+      margin: 10px 0;
+    }
+    > p {
+      line-height: 26px;
+    }
+    .Linux_release {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .VMware_WorkStation,
+    .CentOS {
+      font-size: 26px;
+      font-weight: 700;
+      margin: 20px 0;
+    }
+    .keng {
+      color: red;
     }
   }
 }
