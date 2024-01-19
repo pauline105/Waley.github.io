@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet,useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import Avatar from "@/assets/img/home/avatar.png";
 
 import "@/style/home/home.scss";
@@ -8,6 +8,10 @@ function HomeNavBar() {
   // 前往文章栏
   const GotoArchives = () => {
     navigate("/archives");
+  };
+  // 前往首页
+  const gotoHome = () => {
+    navigate("/");
   };
   return (
     <div>
@@ -19,12 +23,10 @@ function HomeNavBar() {
         </div>
         {/*  */}
         <div>
-          <span>
+          <span onClick={() => gotoHome()}>
             <i className="iconfont icon-home"></i>首页
           </span>
-          <span 
-          onClick={() => GotoArchives()}
-          >
+          <span onClick={() => GotoArchives()}>
             <i className="iconfont icon-dingdan">归档</i>
           </span>
           <span>

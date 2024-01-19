@@ -46,13 +46,17 @@
       margin-bottom: 20px;
     }
     .VMware_WorkStation,
-    .CentOS {
+    .CentOS,
+    .FinalShell {
       font-size: 26px;
       font-weight: 700;
-      margin: 20px 0;
+      margin: 15px 0 5px;
     }
     .keng {
       color: red;
+    }
+    h3 {
+      margin: 10px 0 5px;
     }
   }
 }

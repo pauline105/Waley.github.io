@@ -25,7 +25,7 @@ function Home() {
       {
         name: "救命",
         artist: "倪安东",
-        url: "https://dl.stream.qqmusic.qq.com/C400000ky4wc42VVij.m4a?guid=5229213351&vkey=1F678AA33C31BE4E0B2CFEF5458B2EEC693EF89FA8F4817A43496DB9518C3FA749BE3FDBAFE9A26AA52F7ECB1CFC54441BC5D983FA1B5CBE&uin=1402759629&fromtag=120032",
+        url: "https://dl.stream.qqmusic.qq.com/C400004V1U8u2zrxRu.m4a?guid=9260986946&vkey=5EB139647F756C111F2E08A925D3053C0D928EA27F6A235BD6FCB9889696471B6A686FC195AFD38983CB2F1CDD3FDCAC804A892AE7DAAAFD&uin=1402759629&fromtag=120032",
         cover:
           "https://y.qq.com/music/photo_new/T002R300x300M00000448d8X3XUh2T.jpg?max_age=2592000",
         lrc: "../../assets/lyric/救命-倪安东.lrc",
